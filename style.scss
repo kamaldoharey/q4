@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    flex-direction: column;
+}
+
+.index-table{
+    border: 1px solid green;
+    padding: 1em;
+}
+
+input{
+    height: 2em;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: 1px groove green;
+}
